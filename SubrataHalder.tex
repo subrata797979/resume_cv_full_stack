@@ -1,0 +1,172 @@
+\documentclass[]{resume-openfont}
+
+\pagestyle{fancy}
+\resetHeaderAndFooter
+
+%--------------------------------------------------------------
+% Convenience command - make it easy to fill template
+
+% Create job position command. Parameters: company, position, location, when
+\newcommand{\resumeHeading}[4]{\runsubsection{\uppercase{#1}}\descript{ | #2}\hfill\location{#3 | #4}\fakeNewLine}
+
+% Create education heading. Parameters: Name, degree, location, when
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
+\descript{#2}\fakeNewLine}
+
+% Create project heading. Parameters: Name, link, Tech stack
+\newcommand{\projectHeading}[3]{\Project{#1}{#2}
+\descript{#3}\\}
+
+\newcommand{\projectHeadingWithDate}[4]{\Project{#1}{#2}
+\descript{#3 | #4}\\}
+
+% Parameters: courses
+\newcommand{\courseWork}[1]{\textbf{Coursework:} #1}
+
+% Parameters: courses
+\newcommand{\teacherAssistant}[1]{\textbf{Teacher Assistant (TA):} #1}
+ 
+%--------------------------------------------------------------
+\begin{document}
+
+%--------------------------------------------------------------
+%     Profile
+%--------------------------------------------------------------
+\newcommand{\yourName}{Subrata Halder}
+% How you want it to show up on the resume
+\newcommand{\yourWebsite}{www.subratahalder.me}
+% vs how you want it to show up. If it's the same you can just replace "\yourWebsiteLink" with "yourWebsite"
+\newcommand{\yourWebsiteLink}{https://www.subratahalder.me/}
+\newcommand{\yourEmail}{subrata797979@gmail.com}
+\newcommand{\yourPhone}{+918777047822}
+\newcommand{\githubUserName}{subrata797979}
+\newcommand{\linkedInUserName}{subratahalder97}
+
+% An alternate profile section 
+% \alignProfileTable
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%     \ralewayBold{\href{\yourWebsiteLink}{\Large \yourName}} & 
+%     Email : \href{mailto:\yourEmail}{\yourEmail}
+%     \\
+%     \href{https://github.com/\githubUserName}{GitHub://\githubUserName} & 
+%     Mobile : \yourPhone
+%     \\
+%     \href{https://www.linkedin.com/in/\linkedInUserName}{LinkedIn://\linkedInUserName} & Website : \href{\yourWebsiteLink}{\yourWebsite}
+%     \\
+% \end{tabular*}
+
+\begin{center}
+    \Huge \scshape \latoRegular{\yourName} \\ \vspace{1pt}
+    \small \href{mailto:\yourEmail}{\underline{\yourEmail}}  $|$  \yourPhone $|$ 
+    \href{https://www.linkedin.com/in/\linkedInUserName}{\underline{linkedIn/\linkedInUserName}} $|$
+    \href{https://github.com/\githubUserName}{\underline{github/\githubUserName}} 
+    % $|$ \href{\yourWebsiteLink}{\underline{\yourWebsite}}
+\end{center}
+
+%--------------------------------------------------------------
+%     Education
+%--------------------------------------------------------------
+\section{Education}
+\educationHeading{MCA}{Maulana Abul Kalam Azad University of Technology (MAKAUT)}{Kalyani Government Engineering College, ON}{2019 - 2022}
+
+%\teacherAssistant{World Wide Web Information Systems Development}
+%\courseWork{DSA; OOP with Java; DBMS I; DBMS II; C; C++; Software Engineering and TQM; Computer Networks; Business Management; Unix and Shell Programming}
+\sectionsep
+
+% Put school first and degree second if your school is reputable
+\educationHeading{BSc. Honours Computer Science}{West Bengal State University (WBSU)}{Barrackpore Rastraguru Surendranath College, ON}{2015 - 2018}
+
+%\teacherAssistant{World Wide Web Information Systems Development}
+%\courseWork{C; C++; DBMS; CN; Shell, Microprocessor, Computer Organization and Architecture}
+\sectionsep
+
+
+%--------------------------------------------------------------
+%     Projects
+%--------------------------------------------------------------
+\section{Academic Projects}
+
+\projectHeading{Yoga Posture Detection}{https://github.com/subrata797979/yogi}{Tensorflow, Sklearn, Pose.Net, ml5.js, Python, Colab}
+A project inspired by various Machine Learning models implemented with Web Development.\\
+\textit{Under the guidance of \textbf{Dr. Partha Garai} associated with KGEC (MCA)} \\
+\sectionsep
+  
+\projectHeading{Xconnect Module of KGEC-IMS}{https://github.com/subrata797979/xConnect}{Html, Css, Javascript, Bootstrap, PHP, Mysql}
+A module that searches, filters and communicate students and ex-students with modular UI/UX.\\
+\textit{Under the guidance of \textbf{Dr. Partha Garai} associated with KGEC (MCA)} \\
+\sectionsep
+
+\projectHeading{Hospital Management System}{https://github.com/subrata797979/51_Hospital_Management_System}{Html, Css, Javascript, Bootstrap, PHP, Mysql, Composer}
+A hms with covid module and dark mode developed for simulating hospital management tasks in one place.\\
+\textit{Under the guidance of \textbf{Dr. Indrajit Bhattacharya} associated with KGEC (MCA)} \\
+\sectionsep
+
+\projectHeading{College Gate}{https://github.com/subrata797979/21_CollegeGate}{Html, Css, Javascript, Bootstrap, PHP, Mysql}
+A website to choose perfect college after Higher Secondary without any hustle.\\
+\textit{Under the guidance of \textbf{Professor Phulen Mahato} associated with BRSNC (BSc Hons.)} \\
+\sectionsep
+
+%\href{https://www.hackerrank.com/subrata797979}{5* Java \underline{Hackerrank} with 9 certifications}
+
+\section{Other Projects}
+
+\projectHeading{Student Management System}{https://github.com/subrata797979/12_StudentAPI_CRUD_Backend}{Java, Spring MVC, Maven, Spring Boot, Html, Css, Js, Bootstrap, Fetch API}
+A system accept http requests using \textbf{REST API} endpoints for \textbf{CRUD} operations with \href{https://github.com/subrata797979/11_StudentAPI_CRUD_Frontend}{separate \underline{frontend}}.\\
+\sectionsep
+
+\projectHeading{Book Management System}{https://github.com/subrata797979/42_Book_Management_Backend}{Node, Express, MongoDB, Angular, MEAN Stack}
+A \textbf{node} backend with \href{https://github.com/subrata797979/41_Book_Management_Frontend}{separate \textbf{angular} \underline{frontend}} with chart js for visualization.\\
+\sectionsep
+
+\projectHeading{CollegeGate Revamped}{https://github.com/subrata797979/CollegeGateRevampedBackend}{Java, Spring MVC, Maven, Spring Boot, Angular Frontend}
+A revamped version of my BSc. final year project in \textbf{Java Spring Boot} with \href{https://github.com/subrata797979/CollegeGateRevampedFrontend}{separate \textbf{angular} \underline{frontend}}.\\
+\sectionsep
+
+
+% Example using bullets and dates 
+% \projectHeadingWithDate{Hogwart\textquotesingle{}s Library Management System}{https://github.com/Aarif123456/hogwartslibrary}{PHP, JavaScript, HTML, CSS, MySQL}{Aug 2019}
+% \begin{bullets}
+    % \item A full-stack library management system, where users can manage books and holds on their accounts. Users can search the library\textquotesingle{}s catalogue, which has every book mentioned in the Harry Potter series. The system distinguishes between 4 users. For examples, librarians who can also check or return books on behalf of users.\\
+% \end{bullets}
+% \sectionsep
+
+%--------------------------------------------------------------
+%     Experience
+%--------------------------------------------------------------
+\section{Experience}
+\resumeHeading{Codeaxes Digital Solutions}{Jr. Full Stack Engineer Intern}{Delhi, ON}{Nov 2021 – Dec 2021}
+\begin{bullets}
+    \item Developed dashboard functionality using \textbf{Angular} and \textbf{TypeScript} fetched from \textbf{Node} backend through custom \textbf{REST API} endpoints to visualize data stored in \textbf{MongoDB} ensuring proper authentication and authorization using \textbf{JWT} reporting \textbf{PR} on daily basis using \textbf{Git} and \textbf{Bitbucket}.
+\end{bullets}
+\sectionsep
+
+\resumeHeading{Air King Group}{Digital Marketing Intern}{Kolkata, ON}{Sep 2021 - Nov 2021}
+\begin{bullets}
+    \item Developed new design and ideas on daily basis in form of \textbf{Poster}, \textbf{Banner}, \textbf{Brochure}, \textbf{Social Media Post}.
+\end{bullets}
+\sectionsep
+  
+
+%--------------------------------------------------------------
+%     Skills
+%--------------------------------------------------------------
+\section{Skills}
+\begin{skillList}
+    \singleItem{Languages:}{Java, C, C++, Python, PHP, Bash, SQL}
+    \\
+    \singleItem{Web Development:}{JavaScript, Angular, TypeScript, Node, HTML/CSS/Bootstrap}
+    \\
+    \singleItem{Technology:}{Java Spring Boot, MEAN Stack, Postman, Git, Linux, \LaTeX, MongoDB, phpMyAdmin, Android Development}
+    \\
+    \singleItem{Achievement:}{\href{https://www.hackerrank.com/subrata797979}{5* Java \underline{Hackerrank} with 9 certifications},\href{https://leetcode.com/subrata797979/}{ 300+ \underline{Leetcode} Solved},\href{https://drive.google.com/file/d/12bhO9nzDUkLcGOSTJybPe6MhMqX_wprU/view}{ 73.83\% TCS \underline{NQT}}}
+\end{skillList}
+
+% A more concise alternate 
+% \begin{skillList}
+%     \doubleItem{Languages:}{Java, C++, Python, C\#, PHP, Prolog, Bash, C, Racket}%
+%     {Databases:}{SQL, MongoDB, Neo4j, DynamoDB}
+%     \\
+%     \doubleItem{Web Development:}{JavaScript, TypeScript, React, HTML/CSS}
+%     {Technology:}{Git, AWS, GCP, Azure, Docker, \LaTeX}%
+% \end{skillList}
+\end{document}
