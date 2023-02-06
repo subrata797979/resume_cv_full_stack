@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.7.21)  21 JUL 2022 14:10
+This is XeTeX, Version 3.141592653-2.6-0.999994 (MiKTeX 22.3) (preloaded format=xelatex 2022.7.21)  6 FEB 2023 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,51 +939,51 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 
 
 LaTeX Font Warning: Font shape `TU/Lato-Light(1)/m/sc' undefined
-(Font)              using `TU/Lato-Light(1)/m/n' instead on input line 59.
+(Font)              using `TU/Lato-Light(1)/m/n' instead on input line 46.
 
 
 LaTeX Font Warning: Font shape `TU/Lato-Regular(0)/m/sc' undefined
-(Font)              using `TU/Lato-Regular(0)/m/n' instead on input line 59.
+(Font)              using `TU/Lato-Regular(0)/m/n' instead on input line 46.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 60.
+(Font)              <9> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 60.
+(Font)              <6> on input line 47.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 60.
+(Font)              <5> on input line 47.
 
 LaTeX Font Warning: Font shape `TU/Lato-Light(0)/m/sc' undefined
-(Font)              using `TU/Lato-Light(0)/m/n' instead on input line 69.
+(Font)              using `TU/Lato-Light(0)/m/n' instead on input line 56.
 
 
 LaTeX Font Warning: Font shape `TU/Lato-Black(0)/b/n' undefined
-(Font)              using `TU/Lato-Black(0)/m/n' instead on input line 70.
+(Font)              using `TU/Lato-Black(0)/m/n' instead on input line 57.
 
 
 LaTeX Font Warning: Font shape `TU/FontAwesome(0)/b/n' undefined
-(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 89.
+(Font)              using `TU/FontAwesome(0)/m/n' instead on input line 100.
 
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 154.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 137.
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <5.5> not available
-(Font)              size <5> substituted on input line 154.
+(Font)              size <5> substituted on input line 137.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 154.
+(Font)              size <5> substituted on input line 137.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <11> on input line 154.
+(Font)              <11> on input line 137.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7.69997> on input line 154.
+(Font)              <7.69997> on input line 137.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5.5> on input line 154.
+(Font)              <5.5> on input line 137.
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <5.5> not available
-(Font)              size <5> substituted on input line 154.
+(Font)              size <5> substituted on input line 137.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 159.
+(Font)              <7> on input line 142.
 [1
 
 ] (SubrataHalder.aux)
@@ -995,15 +995,15 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `SubrataHalder.out' has not changed.
-(rerunfilecheck)             Checksum: 2559D7398BB8EDE9979FB29FB8B607FE;501.
+(rerunfilecheck)             Checksum: A896B1CA92D128C2927ACA429432ADD9;536.
  ) 
 Here is how much of TeX's memory you used:
  18539 strings out of 410670
  343933 string characters out of 2816708
- 729843 words of memory out of 3000000
+ 731878 words of memory out of 3000000
  39288 multiletter control sequences out of 15000+600000
  474112 words of font info for 134 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 115i,11n,148p,411b,340s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 115i,11n,148p,446b,340s stack positions out of 10000i,1000n,20000p,200000b,80000s
 
 Output written on SubrataHalder.pdf (1 page).
